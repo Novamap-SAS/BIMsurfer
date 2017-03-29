@@ -101,9 +101,9 @@ BIMSURFER.Constants.materials = {
  */
 BIMSURFER.Constants.camera = {
 	maxOrbitSpeed : Math.PI * 0.1,
-	orbitSpeedFactor : 0.05,
-	zoomSpeedFactor : 0.1,
-	panSpeedFactor : 0.6
+	orbitSpeedFactor : 0.01,
+	zoomSpeedFactor : 0.01,
+	panSpeedFactor : 0.01
 };
 
 /*
@@ -114,7 +114,7 @@ BIMSURFER.Constants.highlightSelectedObject = {
 	wire: true,
 	id : 'highlight',
 	emit : 0.0,
-	baseColor : {r: 0.0, g: 1, b: 0}
+	alpha : 0.0
 }
 
 /*

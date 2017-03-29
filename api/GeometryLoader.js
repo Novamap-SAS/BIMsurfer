@@ -123,7 +123,7 @@ function GeometryLoader(bimServerApi, models, viewer, type) {
 					var flags = {
 						type : "flags",
 						flags : {
-							transparent : hasTransparency
+							transparent : true
 						},
 						nodes : [{
 							type: "enable",

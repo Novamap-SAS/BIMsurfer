@@ -285,16 +285,16 @@ BIMSURFER.Control.PickFlyOrbit = BIMSURFER.Class(BIMSURFER.Control, {
 			return;
 		}
 
-		this.startPivot = {x: this.currentPivot.x, y: this.currentPivot.y, z: this.currentPivot.z};
-		this.endPivot = {x: hit.worldPos[0], y: hit.worldPos[1], z: hit.worldPos[2]};
-		var dif = {x: this.endPivot.x - this.startPivot.x, y: this.endPivot.y - this.startPivot.y, z: this.endPivot.z - this.startPivot.z};
+		// this.startPivot = {x: this.currentPivot.x, y: this.currentPivot.y, z: this.currentPivot.z};
+		// this.endPivot = {x: hit.worldPos[0], y: hit.worldPos[1], z: hit.worldPos[2]};
+		// var dif = {x: this.endPivot.x - this.startPivot.x, y: this.endPivot.y - this.startPivot.y, z: this.endPivot.z - this.startPivot.z};
 
-		var flightDist = Math.sqrt(dif.x*dif.x + dif.y*dif.y + dif.z*dif.z);
+		// var flightDist = Math.sqrt(dif.x*dif.x + dif.y*dif.y + dif.z*dif.z);
 
-		this.flightStartTime = null;
-		this.flightDuration = 1000.0 * ((flightDist / 15000) + 1); // extra seconds to ensure arrival
+		// this.flightStartTime = null;
+		// this.flightDuration = 1000.0 * ((flightDist / 15000) + 1); // extra seconds to ensure arrival
 
-		this.flying = true;
+		// this.flying = true;
 	},
 
 	/**
